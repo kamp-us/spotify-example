@@ -5,11 +5,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 
 ```bash
-npm run dev
+NEXT_PUBLIC_SPOTIFY_CLIENT_ID=<your-spotify-client-id> npm run dev
 # or
-yarn dev
+NEXT_PUBLIC_SPOTIFY_CLIENT_ID=<your-spotify-client-id> yarn dev
 # or
-pnpm dev
+NEXT_PUBLIC_SPOTIFY_CLIENT_ID=<your-spotify-client-id> pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
